@@ -1,0 +1,119 @@
+header {
+    background-color: #BBC3A4;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #BBC3A4;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button img {
+    width: 16px;
+    height: 16px;
+}
+
+ 
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #009933;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+section.product-list {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 98%; 
+}
+
+section.product-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section.product-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section.product-list ul li {
+    display: inline-block;
+    margin: 0 10px 20px;
+    width: 23%;
+    text-align: center;
+    vertical-align: top;
+}
+
+section.product-list ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+section.product-list ul li img {
+    width: 100%;
+    height: 180px; 
+    margin-bottom: 10px;
+}
+
+section.product-list ul li h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+section.product-list ul li p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+section.product-list ul li span.discount {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+img{
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    section.product-list ul li {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section.product-list ul li {
+        width: 100%;
+    }
+}
